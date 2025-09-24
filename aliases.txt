@@ -2,3 +2,4 @@ alias vantage="sudo python3 quick-vantage.py"
 alias activate="python3 -m venv myenv && source myenv/bin/activate"
 alias kivy="python -m venv kivy_venv && source kivy_venv/bin/activate"
 alias cf='printf "#include<iostream>\nusing namespace std;\n">cf.cpp && nano cf.cpp'
+alias device="emulator -avd Pixel_9_Pro_XL & disown"
